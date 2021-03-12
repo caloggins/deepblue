@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div>
+          Hello, world.
+        </div>
+        <div>
+          learn react
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
