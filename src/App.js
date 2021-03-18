@@ -1,19 +1,28 @@
 import React from 'react'
-import Grid from '@material-ui/core/Grid'
-import Paper from '@material-ui/core/Paper'
-import './App.css'
+import { makeStyles } from '@material-ui/core'
+import Container from '@material-ui/core/Container'
+import Tanks from './tanks/Tanks'
+
+const styles = makeStyles((_theme) => ({
+    root: {
+        display: 'flex',
+        textAlign: 'center'
+    },
+    container: {
+        width: 800
+    },
+    grid: {},
+    paper: {}
+}))
 
 function App() {
+    const classes = styles()
+
     return (
-        <div className="App">
-            <Grid container spacing={3}>
-                <Grid item xs={12}>
-                    <Paper>
-                        <div>Hello, world.</div>
-                        <div>learn react</div>
-                    </Paper>
-                </Grid>
-            </Grid>
+        <div className={classes.root}>
+            <Container className={classes.container}>
+                <Tanks />
+            </Container>
         </div>
     )
 }

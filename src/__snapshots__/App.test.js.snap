@@ -2,24 +2,150 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="App"
+  className="makeStyles-root-1"
 >
   <div
-    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+    className="MuiContainer-root makeStyles-container-2 MuiContainer-maxWidthLg"
   >
     <div
-      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
     >
-      <div
-        className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+      <table
+        aria-label="simple table"
+        className="MuiTable-root"
+        role={null}
       >
-        <div>
-          Hello, world.
-        </div>
-        <div>
-          learn react
-        </div>
-      </div>
+        <thead
+          className="MuiTableHead-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root MuiTableRow-head"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head"
+              scope="col"
+            >
+              Name
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+              scope="col"
+            >
+              Size
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+              scope="col"
+            >
+              Type
+            </th>
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+              scope="col"
+            >
+              Action
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="MuiTableBody-root"
+          role={null}
+        >
+          <tr
+            className="MuiTableRow-root"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              display
+            </th>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              650
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              sw
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            />
+          </tr>
+          <tr
+            className="MuiTableRow-root"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              hospital
+            </th>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              20
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              sw
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            />
+          </tr>
+          <tr
+            className="MuiTableRow-root"
+            role={null}
+          >
+            <th
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body"
+              role="cell"
+              scope="row"
+            >
+              planted
+            </th>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              40
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            >
+              fw
+            </td>
+            <td
+              aria-sort={null}
+              className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+            />
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
